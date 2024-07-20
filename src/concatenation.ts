@@ -1,5 +1,5 @@
-function concatenation(firsWord: string, secondWord: string) {
-  console.log(`${firsWord} ${secondWord}`);
+function concatenation(firstWord: string, secondWord: string) {
+  return console.log(`${firstWord} ${secondWord}`);
 }
 
 export { concatenation };

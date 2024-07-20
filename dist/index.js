@@ -1,7 +1,7 @@
 import { concatenation } from "./concatenation";
-const button = document.querySelector("button");
 const input = document.querySelector("input");
-if (button && input) {
+const button = document.querySelector("button");
+if (input && button) {
     button.addEventListener("click", () => {
         concatenation(input.value, "hello!");
     });
